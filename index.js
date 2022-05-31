@@ -8,7 +8,7 @@ import './routes/allSchedule'
 const app = express();
 const http = require('http').Server(app);
 const host = '0.0.0.0';
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 4003;
 
 app.use(bodyParser.json());
 app.set("views", "views/");
